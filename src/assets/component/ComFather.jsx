@@ -11,7 +11,7 @@ export default function father({count,sayHaaa}) {
      <button onClick={function aaa() {
       sayHaaa("quannnnnn")
      }}>Call me</button>
-    <ComChildren test={[5]}/>
+    <ComChildren test={{name:'quan',age:2}}  name={"quan2"}/>
     </>
   )
 }
